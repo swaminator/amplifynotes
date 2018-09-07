@@ -1,0 +1,20 @@
+{
+    "AppSyncApiName": "amplifynotes",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito6c547e94",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "MutationUpdateNoteResponse": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.updateNote.response.1536281204836",
+    "MutationCreateNoteResponse": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.createNote.response.1536281204836",
+    "MutationUpdateNoteRequest": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.updateNote.request.1536281204836",
+    "QueryGetNoteResponse": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Query.getNote.response.1536281204836",
+    "MutationDeleteNoteRequest": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.deleteNote.request.1536281204836",
+    "QueryListNotesResponse": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Query.listNotes.response.1536281204836",
+    "schemaGraphql": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/schema.graphql.1536281204836",
+    "QueryListNotesRequest": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Query.listNotes.request.1536281204836",
+    "MutationDeleteNoteResponse": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.deleteNote.response.1536281204836",
+    "QueryGetNoteRequest": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Query.getNote.request.1536281204836",
+    "MutationCreateNoteRequest": "s3://amplifynotes-20180906174303-deployment/amplify-appsync-files/Mutation.createNote.request.1536281204836"
+}
