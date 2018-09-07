@@ -11,5 +11,4 @@ const awsmobile =  {
     "aws_appsync_authenticationType": process.env.aws_appsync_authenticationType
 };
 
-
 export default awsmobile;
