@@ -117,7 +117,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Notes App</h1>
         </header>
-        <br/>
+        <br/> 
         <div className="container">
           {this.state.displayAdd ?
             <form onSubmit={this.handleSubmit}>
