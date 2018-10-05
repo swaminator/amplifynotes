@@ -134,7 +134,7 @@ class App extends Component {
               <div className="input-group mb-3">
                 <input type="text" className="form-control form-control-lg" placeholder="Update Note" aria-label="Note" aria-describedby="basic-addon2" value={this.state.value} onChange={this.handleChange}/>
                 <div className="input-group-append">
-                  <button className="btn btn-primary" type="submit">Update Note</button>
+                  <button className="btn btn-primary" type="submit">Change Note</button>
                 </div>
               </div>
             </form>
