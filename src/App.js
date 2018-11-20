@@ -106,7 +106,7 @@ class App extends Component {
       .map((item,i)=> 
       <div className="alert alert-primary alert-dismissible show" role="alert">
         <span key={item.i} onClick={this.selectNote.bind(this, item)}>{item.note}</span>
-        <button key={item.i} type="button" className="close" data-dismiss="alert" aria-label="Close" onClick={this.handleDelete.bind(this, item.id)}>
+        <button key={item.i} type="button" className="close" data-dismiss="alert" aria-label="Closesss" onClick={this.handleDelete.bind(this, item.id)}>
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
